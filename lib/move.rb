@@ -8,7 +8,7 @@ end
 
 def input_to_index(user_input)
   '5'.to_i
-  expect(actual).to eq(expected)
+  expect(input_to_index(user_input)).to eq(-1)
 end
 
 board=[" "," "," "," "," "," "," "," "," ",]
