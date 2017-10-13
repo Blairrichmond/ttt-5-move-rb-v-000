@@ -6,8 +6,8 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index('0')
-  '5'.to_i
+def input_to_index(user_input)
+  '0'.to_i
 end
 
 board=[" "," "," "," "," "," "," "," "," ",]
