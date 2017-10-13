@@ -8,6 +8,7 @@ end
 
 def input_to_index(user_input)
   '5'.to_i
+  return 5 - 1
   '-1'.to_i
 end
 
