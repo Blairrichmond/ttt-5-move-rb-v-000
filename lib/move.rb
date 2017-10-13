@@ -5,7 +5,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
+expected(5).to eq(-1)
 def input_to_index(user_input)
   '5'.to_i
 end
