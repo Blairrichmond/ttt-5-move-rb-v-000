@@ -17,7 +17,7 @@ describe '#input_to_index' do
   it 'returns -1 for strings without integers' do
     user_input = "invalid"
 
-    expect(input_to_index(user_input)).to be(-1)
+    expect(input_to_index(user_input)).to eq(-1)
   end
 
 end
