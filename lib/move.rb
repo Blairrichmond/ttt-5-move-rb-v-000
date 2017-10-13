@@ -9,7 +9,7 @@ end
 def input_to_index(user_input)
   '5'.to_i
   return 6 - 1
-  return -1
+  
 end
 
 board=[" "," "," "," "," "," "," "," "," ",]
