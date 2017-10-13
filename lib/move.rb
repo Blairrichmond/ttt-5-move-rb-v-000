@@ -7,7 +7,8 @@ def display_board(board)
 end
 
 def input_to_index(user_input)
-  '5','-1'.to_i
+  user_input.to_i
+  
 end
 
 board=[" "," "," "," "," "," "," "," "," ",]
