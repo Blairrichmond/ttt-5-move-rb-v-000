@@ -3,5 +3,7 @@
 require_relative '../lib/move.rb'
 
 puts "Welcome To Tic Tac Toe!"
+
 board = [" "," "," "," "," "," "," "," "," "]
+
 
