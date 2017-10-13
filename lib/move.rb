@@ -10,11 +10,10 @@ def input_to_index(user_input)
   '5'.to_i
 end
 
-def move(board, index, value='X')
-  board=[" "," "," "," "," "," "," "," "," ",]
-  board[index] = value
+board=[" "," "," "," "," "," "," "," "," ",]
 
-
+def move(array, index, value='X')
+  array[index] = value
 end
 
 move(board, 0, X)
